@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,4 +13,35 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto {
+    display: flex;
+    align-items: center;
+}
+
+.dogecoin-icon {
+    margin-right: 0.5rem;
+}
+
+h1#time {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.weather-text {
+    margin: 0;
 }
